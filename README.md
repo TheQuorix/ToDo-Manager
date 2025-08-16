@@ -1,5 +1,7 @@
 # 📝 ToDo Manager API
 
+<img width="1920" height="947" alt="изображение" src="https://github.com/user-attachments/assets/d8e94f20-1375-4bd6-bc75-7fbe4c25aea0" />
+
 A simple RESTful API written in Python using FastApi to work with tasks 
 
 ---
@@ -47,3 +49,24 @@ uvicorn main:app --reload
 5. Open the documentation in your browser:
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
+
+---
+
+# 🗂️ Project Structure
+```
+.
+├── database/
+│   ├── __init__.py
+│   ├── database.py # Database connection setup
+│   ├── models.py # Task SQLAlchemy model
+│   └── schemas.py # Pydantic schemas
+├── routers/
+│   └── to_do.py # Handles all API endpoints for managing tasks (Create, Read, Update, Delete).
+├── main.py # Entry of the application
+```
+
+---
+
+🚧 Future Improvements
+ - User authentication
+ - Task filtering (by status, date, etc.)
