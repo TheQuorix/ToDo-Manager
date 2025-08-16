@@ -2,7 +2,7 @@
 
 <img width="1920" height="947" alt="изображение" src="https://github.com/user-attachments/assets/d8e94f20-1375-4bd6-bc75-7fbe4c25aea0" />
 
-A simple RESTful API written in Python using FastApi to work with tasks 
+A simple RESTful API for managing tasks (CRUD operations) built with **FastAPI** and **Python**. 
 
 ---
 
@@ -52,7 +52,7 @@ uvicorn main:app --reload
 
 ---
 
-# 🗂️ Project Structure
+## 🗂️ Project Structure
 ```
 .
 ├── database/
